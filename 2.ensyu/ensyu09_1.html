@@ -1,0 +1,31 @@
+<!--作成日:2024/8/22-->
+<!--作成者:藤井　翔天-->
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>学年情報登録</title>
+  </head>
+
+  <body>
+    <h1>学年情報登録1</h1>
+    <p>必要事項を入力して登録ボタンを押してください。</p>
+    <br/>
+    <form action="#">
+      <p>学籍番号</p>
+      <input type="text" name="student_id" />
+      <p>氏名</p>
+      <input type="text" name="username" />
+      <p>電話番号</p>
+      <input type="tel" name="tel" />
+      <p>備考</p>
+      <textarea name="remark" cols="40" rows="4" maxlength="40"></textarea>
+      <br/>
+      <input type="submit" onclick="alert('send now!');return false;"value="登録">
+      <input type="reset" value="クリア"/>
+    </form>
+  </body>
+
+</html>
